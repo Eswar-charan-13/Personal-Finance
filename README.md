@@ -1,97 +1,122 @@
 
-# 💰 Personal Finance Analyser App
+# 💸 Personal Finance Tracker
 
-A lightweight, user-friendly personal finance tracker built using **Streamlit** and **SQLite**. This app helps users securely log expenses, track savings, and visualize their financial habits with intuitive charts and personalized insights.
+A simple and interactive personal finance management application built with **Streamlit** and **SQLite**.  
+This project helps users monitor expenses, manage savings, and gain financial insights through charts and analytics.
+
+---
+## ✨ Features
+
+### 🔐 Authentication System
+- Secure user registration and login
+- User information stored locally using SQLite database
+
+### 📋 Expense Management
+Track daily expenses across categories such as:
+- 🍔 Food
+- ⛽ Fuel
+- 🛒 Groceries
+- 📦 Other Expenses
+- 💰 Savings
+
+### 📊 Financial Insights
+- View total expenses and total savings
+- Analyze spending habits
+- Expense vs Savings comparison
+- Personalized financial suggestions
+
+### 📈 Data Visualization
+Interactive charts for better understanding:
+- Pie chart for expense distribution
+- Bar chart for income and expense comparison
 
 ---
 
-## 🚀 Features
+## 🛠️ Tech Stack
 
-### 🔐 User Authentication
-- Secure login and registration system.
-- User data stored locally using **SQLite**.
-
-### 📝 Daily Expense Logging
-- Log daily expenses under predefined categories:
-  - Food
-  - Fuel
-  - Groceries
-  - Other
-  - Savings
-
-### 📊 Insightful Analysis
-- **Total expense** and **total savings** overview.
-- **Expense-to-savings ratio** for better financial awareness.
-- Tailored **spending advice** based on your data.
-
-### 📈 Visualizations
-- **Pie Chart** showing expense distribution by category.
-- **Bar Chart** comparing income and expenses.
+- **Python**
+- **Streamlit**
+- **SQLite3**
+- **Pandas**
+- **Matplotlib**
+- **Seaborn**
 
 ---
 
-## 🛠️ Setup Instructions
+## 📂 Project Structure
 
-### 1. Clone the Repository
 ```bash
-git clone https://github.com/Yuva-2211/personal-finance.git
-cd personal-finance
-````
+Personal-Finance/
+│
+├── app.py               # Main application file
+├── user_data.db         # SQLite database
+├── README.md            # Documentation
+```
 
-### 2. Install Required Packages
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Eswar-charan-13/Personal-Finance.git
+cd Personal-Finance
+```
+
+### 2️⃣ Install Dependencies
 
 ```bash
 pip install streamlit pandas matplotlib seaborn
 ```
 
-### 3. Run the App
+### 3️⃣ Run the Application
 
 ```bash
-streamlit run app.py
+python -m streamlit run app.py
 ```
 
 ---
 
-## 📁 File Structure
+## 🚀 How It Works
 
-```
-personal-finance/
-├── app.py              # Main Streamlit application
-├── user_data.db        # SQLite database (auto-created upon first run)
-├── README.md           # Project documentation
-```
-
----
-
-## 🧰 Technologies Used
-
-* **Streamlit** – For building the interactive web interface
-* **SQLite3** – Lightweight relational database for storing user data
-* **Pandas** – For handling and analyzing tabular data
-* **Matplotlib & Seaborn** – For generating visual insights
+1. Create a new account with your details
+2. Enter your monthly income
+3. Add and categorize daily expenses
+4. Monitor savings and spending patterns
+5. View charts and financial analysis instantly
 
 ---
 
-## 🔄 Sample Flow
+## 📸 Key Highlights
 
-1. Register with your **name**, **password**, and **monthly salary**.
-2. Log daily expenses under specific categories.
-3. Get visual feedback via charts and metrics.
-4. Receive personalized financial advice based on your spending and savings behavior.
-
----
-
-## 📬 Contributing
-
-Contributions, issues, and feature requests are welcome!
-Feel free to fork the repository and submit a pull request.
+✅ User-friendly interface  
+✅ Lightweight local database  
+✅ Real-time financial insights  
+✅ Interactive visual analytics  
+✅ Beginner-friendly finance management project
 
 ---
 
+## 🤝 Contributions
+
+Contributions and suggestions are welcome!
+
+Feel free to:
+- Fork the repository
+- Improve features
+- Submit pull requests
+
 ---
 
-## 🙌 Acknowledgements
+## 👨‍💻 Developer
 
-Created with ❤️ by **Yuva** – Learning, building, and growing one line of code at a time.
+Developed by **Eswar Charan**
 
-[Connect with me on LinkedIn](https://www.linkedin.com/in/yuva-shankar-narayana/)
+🔗 GitHub: https://github.com/Eswar-charan-13
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
